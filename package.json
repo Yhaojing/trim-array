@@ -1,0 +1,23 @@
+{
+  "name": "trim-array",
+  "version": "1.0.0",
+  "description": "get first element, last element ,first n elements or last n elements of an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test/array_operation.test.js"
+  },
+  "keywords": [
+    "array",
+    "trim"
+  ],
+  "author": "haoj",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.5.3"
+  }
+}
