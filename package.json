@@ -1,11 +1,12 @@
 {
   "name": "trim-array",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "get first element, last element ,first n elements or last n elements of an array",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register test/array_operation.test.js"
   },
+  "homepage": "https://github.com/Yhaojing/trim-array",
   "keywords": [
     "array",
     "trim"

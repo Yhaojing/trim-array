@@ -2,6 +2,12 @@ const errorMsg = 'This is an error, expects an array as the first argument';
 const errorMsgLen = "Intercept the array length more than the actual length";
 
 class ArrayOperation {
+    /**
+     * 获取数组某位置的元素
+     * @param array 数组
+     * @param index 位置
+     * @returns {*}
+     */
     getArrayElementByIndex(array, index = 0) {
         if (array instanceof Array) {
             return array[index]
