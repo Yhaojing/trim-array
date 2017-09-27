@@ -1,6 +1,6 @@
 {
   "name": "trim-array",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "get first element, last element ,first n elements or last n elements of an array",
   "main": "index.js",
   "scripts": {
